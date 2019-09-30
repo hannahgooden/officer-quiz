@@ -2,6 +2,14 @@
     <div class="buttons">
         <button mat-button (click)="firstQuestion()"><i class="fa fa-angle-double-left"></i></button>
         <button mat-button (click)="previousQuestion()"><i class="fa fa-angle-left"></i></button>
+            <span *ngFor="let answer of answers">
+                <span *ngIf="answer === -1">
+                     • 
+                </span>
+                <span *ngIf="answer !== -1" class="answered">
+                     • 
+                </span>
+            </span>
         <button mat-button (click)="nextQuestion()"><i class="fa fa-angle-right"></i></button>
         <button mat-button (click)="lastQuestion()"><i class="fa fa-angle-double-right"></i></button>
     </div>

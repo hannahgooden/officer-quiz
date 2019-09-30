@@ -15,6 +15,7 @@ function initializeAnswers() : Array<number> {
 
 export class CardsComponent implements OnInit {
   
+  questions = questions;
   question_index = 0;
   answers = initializeAnswers();
   
