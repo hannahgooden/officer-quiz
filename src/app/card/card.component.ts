@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import questions from '../questions.json'
+import questions from '../questions.json';
 
 @Component({
   selector: 'app-card',
