@@ -6,9 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cards.component.scss']
 })
 export class CardsComponent implements OnInit {
-
+  question_index = "0";
+  
   constructor() { }
-
+  
   ngOnInit() {
   }
 

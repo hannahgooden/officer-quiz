@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import questions from '../questions.json'
 
 @Component({
   selector: 'app-card',
@@ -6,9 +7,10 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent implements OnInit {
-  @Input() question : string;
+  @Input() question_index : number;
+  questions = questions;
 
-  constructor() { }
+  constructor() {  }
 
   ngOnInit() {
   }
