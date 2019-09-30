@@ -2,7 +2,7 @@
     <mat-card>
         <div> {{questions[question_index].question}} </div>
         <button mat-button *ngFor="let answer of questions[question_index].answers">
-            {{ answer }}
+            {{ answer.text }}
         </button>
     </mat-card>
 </div>
