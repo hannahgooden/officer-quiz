@@ -3,10 +3,10 @@
         <button mat-button (click)="firstQuestion()"><i class="fa fa-angle-double-left"></i></button>
         <button mat-button (click)="previousQuestion()"><i class="fa fa-angle-left"></i></button>
             <span *ngFor="let answer of answers">
-                <span *ngIf="answer === -1">
+                <span *ngIf="this.isEmpty(answer)">
                      • 
                 </span>
-                <span *ngIf="answer !== -1" class="answered">
+                <span *ngIf="!this.isEmpty(answer)" class="answered">
                      • 
                 </span>
             </span>

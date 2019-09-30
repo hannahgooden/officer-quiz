@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import questions from '../questions.json';
 
-function initializeAnswers() : Array<number> {
+function initializeAnswers() : Array<Array<number>> {
   let answers = Array.apply(null, Array(questions.length));
-  answers.fill(-1, 0, questions.length);
+  answers.fill([], 0, questions.length);
   return answers;
 };
+
 
 @Component({
   selector: 'app-cards',
@@ -38,9 +39,15 @@ export class CardsComponent implements OnInit {
   public lastQuestion() {
     this.question_index = questions.length - 1;
   }
+    
+  public isEmpty(array: Array<number>) : Boolean {
+    if (array === undefined || array.length == 0) {
+      return true;
+    } else return false;
+  }
 
   public checkAnswers() : Boolean {
-    return this.answers.every( answer => answer !== -1 );
+    return this.answers.every( answer => !this.isEmpty(answer) );
   }
 
   constructor() { 
