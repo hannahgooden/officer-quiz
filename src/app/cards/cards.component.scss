@@ -1,7 +1,18 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .buttons {
-    text-align: center
+    text-align: center;
 }
 
 button {
-    display: inline-block
+    display: inline-block;
+}
+
+.submit-button {
+    margin-top: 5px;
+    width: 7%;
 }

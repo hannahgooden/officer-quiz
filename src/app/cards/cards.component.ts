@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import questions from '../questions.json';
 
+function initializeAnswers() : Array<number> {
+  let answers = Array.apply(null, Array(questions.length));
+  answers.fill(-1, 0, questions.length);
+  return answers;
+};
 
 @Component({
   selector: 'app-cards',
@@ -11,6 +16,7 @@ import questions from '../questions.json';
 export class CardsComponent implements OnInit {
   
   question_index = 0;
+  answers = initializeAnswers();
   
   public firstQuestion() {
     this.question_index = 0;
@@ -32,7 +38,12 @@ export class CardsComponent implements OnInit {
     this.question_index = questions.length - 1;
   }
 
-  constructor() { }
+  public checkAnswers() : Boolean {
+    return this.answers.every( answer => answer !== -1 );
+  }
+
+  constructor() { 
+  }
   
   ngOnInit() {
   }
