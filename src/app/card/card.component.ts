@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { QuestionService } from '../question-service/question.service';
 import shuffle from 'shuffle-array';
-import questions from '../questions.json';
 
 @Component({
   selector: 'app-card',
@@ -9,12 +9,16 @@ import questions from '../questions.json';
 })
 export class CardComponent implements OnInit {
   @Input() question_index : number;
-  questions = questions;
+  questions: Array<Object> = [];
   
-  constructor() {
+  constructor(private questionService: QuestionService) {
+    this.questions = this.questionService.getAllQuestions();
   }
 
   ngOnInit() {
   }
 
 }
+
+
+
