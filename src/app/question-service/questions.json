@@ -1,6 +1,61 @@
 [
     {
-        "question": "1",
+        "question": "What do you most like to do for fun?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "Code",
+                "officers": ["Gabriel"]
+            },
+            {
+                "id" : 1,
+                "text": "Cook",
+                "officers": ["Thomas"]
+            },
+            {
+                "id" : 2,
+                "text": "Rock climb",
+                "officers": ["Mitchell"]
+            },
+            {
+                "id" : 3,
+                "text": "Play Runescape",
+                "officers": ["Edgar"]
+            },
+            {
+                "id" : 4,
+                "text": "Play Smash",
+                "officers": ["Feras"]
+            },
+            {
+                "id" : 5,
+                "text": "I have no free time lol",
+                "officers": ["Shrey"]
+            },
+            {
+                "id" : 6,
+                "text": "Nap",
+                "officers": ["Hannah"]
+            },
+            {
+                "id" : 7,
+                "text": "Marissa answer",
+                "officers": ["Marissa"]
+            },
+            {
+                "id" : 8,
+                "text": "Alsten answer",
+                "officers": ["Alsten"]
+            },
+            {
+                "id" : 9,
+                "text": "Yonathan answer",
+                "officers": ["Yonathan"]
+            }
+        ]
+    }, 
+    {
+        "question": "What is your favorite type of software development?",
         "answers": [
             {
                 "id" : 0,
@@ -55,7 +110,7 @@
         ]
     }, 
     {
-        "question": "2",
+        "question": "What is your favorite coding language?",
         "answers": [
             {
                 "id" : 0,
@@ -110,7 +165,227 @@
         ]
     }, 
     {
-        "question": "3",
+        "question": "Where are you originally from?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "Houston area",
+                "officers": ["Thomas", "Feras"]
+            },
+            {
+                "id" : 1,
+                "text": "Austin area",
+                "officers": ["Alsten"]
+            },
+            {
+                "id" : 3,
+                "text": "A foreign country",
+                "officers": ["Edgar", "Shrey"]
+            },
+            {
+                "id" : 4,
+                "text": "how do you do",
+                "officers": ["Yonathan"]
+            },
+            {
+                "id" : 6,
+                "text": "DFW area",
+                "officers": ["Mitchell", "Hannah"]
+            },
+            {
+                "id" : 8,
+                "text": "buenos dias",
+                "officers": ["Marissa"]
+            },
+            {
+                "id" : 9,
+                "text": "*waves*",
+                "officers": ["Gabriel"]
+            }
+        ]
+    }, 
+    {
+        "question": "What are you wearing right now?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "Sunglasses inside",
+                "officers": ["Thomas"]
+            },
+            {
+                "id" : 1,
+                "text": "A nerdy t-shirt",
+                "officers": ["Alsten"]
+            },
+            {
+                "id" : 2,
+                "text": "Something with a reference no one else gets",
+                "officers": ["Feras"]
+            },
+            {
+                "id" : 3,
+                "text": "A mustache",
+                "officers": ["Edgar"]
+            },
+            {
+                "id" : 4,
+                "text": "Clothes, duh",
+                "officers": ["Yonathan"]
+            },
+            {
+                "id" : 5,
+                "text": "can't think of anything for shrey",
+                "officers": ["Shrey"]
+            },
+            {
+                "id" : 6,
+                "text": "A really big smile",
+                "officers": ["Mitchell"]
+            },
+            {
+                "id" : 7,
+                "text": "A jacket because I'm always cold",
+                "officers": ["Hannah"]
+            },
+            {
+                "id" : 8,
+                "text": "A baggy tshirt and gym shorts",
+                "officers": ["Marissa"]
+            },
+            {
+                "id" : 9,
+                "text": "Bags under my eyes",
+                "officers": ["Gabriel"]
+            }
+        ]
+    }, 
+    {
+        "question": "Do you identify as an introvert or extrovert?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "Introvert",
+                "officers": ["Yonathan", "Edgar", "Feras", "Marissa", "Hannah"]
+            },
+            {
+                "id" : 1,
+                "text": "Extrovert",
+                "officers": ["Thomas", "Mitchell", "Alsten", "Shrey", "Gabriel"]
+            }
+        ]
+    }, 
+    {
+        "question": "What's the best type of food?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "I can't pick one",
+                "officers": ["Thomas"]
+            },
+            {
+                "id" : 1,
+                "text": "idk",
+                "officers": ["Alsten"]
+            },
+            {
+                "id" : 2,
+                "text": "idk",
+                "officers": ["Feras"]
+            },
+            {
+                "id" : 3,
+                "text": "Tacos",
+                "officers": ["Edgar"]
+            },
+            {
+                "id" : 4,
+                "text": "idk",
+                "officers": ["Yonathan"]
+            },
+            {
+                "id" : 5,
+                "text": "idk",
+                "officers": ["Shrey"]
+            },
+            {
+                "id" : 6,
+                "text": "Family style Chinese",
+                "officers": ["Mitchell"]
+            },
+            {
+                "id" : 7,
+                "text": "Pasta",
+                "officers": ["Hannah"]
+            },
+            {
+                "id" : 8,
+                "text": "idk",
+                "officers": ["Marissa"]
+            },
+            {
+                "id" : 9,
+                "text": "idk",
+                "officers": ["Gabriel"]
+            }
+        ]
+    }, 
+    {
+        "question": "Which tool do you like the most?",
+        "answers": [
+            {
+                "id" : 0,
+                "text": "Kubernetes",
+                "officers": ["Thomas"]
+            },
+            {
+                "id" : 1,
+                "text": "idk",
+                "officers": ["Alsten"]
+            },
+            {
+                "id" : 2,
+                "text": "howdy",
+                "officers": ["Feras"]
+            },
+            {
+                "id" : 3,
+                "text": "hello",
+                "officers": ["Edgar"]
+            },
+            {
+                "id" : 4,
+                "text": "how do you do",
+                "officers": ["Yonathan"]
+            },
+            {
+                "id" : 5,
+                "text": "aloha",
+                "officers": ["Shrey"]
+            },
+            {
+                "id" : 6,
+                "text": "hola",
+                "officers": ["Mitchell"]
+            },
+            {
+                "id" : 7,
+                "text": "Postman",
+                "officers": ["Hannah"]
+            },
+            {
+                "id" : 8,
+                "text": "buenos dias",
+                "officers": ["Marissa"]
+            },
+            {
+                "id" : 9,
+                "text": "*waves*",
+                "officers": ["Gabriel"]
+            }
+        ]
+    }, 
+    {
+        "question": "Why did you join the Aggie Coding Club?",
         "answers": [
             {
                 "id" : 0,
@@ -165,386 +440,56 @@
         ]
     }, 
     {
-        "question": "4",
+        "question": "Who is your favorite officer?",
         "answers": [
             {
                 "id" : 0,
-                "text": "hey",
+                "text": "Thomas",
                 "officers": ["Thomas"]
             },
             {
                 "id" : 1,
-                "text": "hi",
+                "text": "Alsten",
                 "officers": ["Alsten"]
             },
             {
                 "id" : 2,
-                "text": "howdy",
+                "text": "Feras",
                 "officers": ["Feras"]
             },
             {
                 "id" : 3,
-                "text": "hello",
+                "text": "Edgar",
                 "officers": ["Edgar"]
             },
             {
                 "id" : 4,
-                "text": "how do you do",
+                "text": "Yonathan",
                 "officers": ["Yonathan"]
             },
             {
                 "id" : 5,
-                "text": "aloha",
+                "text": "Shrey",
                 "officers": ["Shrey"]
             },
             {
                 "id" : 6,
-                "text": "hola",
+                "text": "Mitchell",
                 "officers": ["Mitchell"]
             },
             {
                 "id" : 7,
-                "text": "hey good lookin whats cookin",
+                "text": "Hannah",
                 "officers": ["Hannah"]
             },
             {
                 "id" : 8,
-                "text": "buenos dias",
+                "text": "Marissa",
                 "officers": ["Marissa"]
             },
             {
                 "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "5",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "6",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "7",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "8",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "9",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
-                "officers": ["Gabriel"]
-            }
-        ]
-    }, 
-    {
-        "question": "10",
-        "answers": [
-            {
-                "id" : 0,
-                "text": "hey",
-                "officers": ["Thomas"]
-            },
-            {
-                "id" : 1,
-                "text": "hi",
-                "officers": ["Alsten"]
-            },
-            {
-                "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
-            },
-            {
-                "id" : 3,
-                "text": "hello",
-                "officers": ["Edgar"]
-            },
-            {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 5,
-                "text": "aloha",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
-            },
-            {
-                "id" : 7,
-                "text": "hey good lookin whats cookin",
-                "officers": ["Hannah"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
-            },
-            {
-                "id" : 9,
-                "text": "*waves*",
+                "text": "Gabriel",
                 "officers": ["Gabriel"]
             }
         ]

@@ -2,11 +2,11 @@
     <div class="buttons">
         <button mat-button (click)="firstQuestion()"><i class="fa fa-angle-double-left"></i></button>
         <button mat-button (click)="previousQuestion()"><i class="fa fa-angle-left"></i></button>
-            <span *ngFor="let answer of answers">
-                <span *ngIf="this.isEmpty(answer)">
+            <span *ngFor="let answer of this.answerService.getAllChosenAnswers()">
+                <span *ngIf="this.answerService.isEmpty(answer)">
                      • 
                 </span>
-                <span *ngIf="!this.isEmpty(answer)" class="answered">
+                <span *ngIf="!this.answerService.isEmpty(answer)" class="answered">
                      • 
                 </span>
             </span>
@@ -14,5 +14,5 @@
         <button mat-button (click)="lastQuestion()"><i class="fa fa-angle-double-right"></i></button>
     </div>
     <app-card [question_index]="question_index"></app-card>
-    <button class="submit-button" *ngIf="checkAnswers()" mat-flat-button color="primary">Submit</button>
+    <button class="submit-button" *ngIf="this.answerService.checkAnswers()" mat-flat-button color="primary">Submit</button>
 </div>
