@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { QuestionService } from '../question-service/question.service';
 import { AnswerService } from '../answer-service/answer.service';
 
@@ -9,6 +9,7 @@ import { AnswerService } from '../answer-service/answer.service';
 })
 export class CardComponent implements OnInit {
   @Input() question_index : number;
+  @Output() button_clicked = new EventEmitter();
   questions: Array<Object> = [];
   question: Object = {};
   chosen_answer : Object;
@@ -20,6 +21,7 @@ export class CardComponent implements OnInit {
 
   public storeAnswer(answer : Object) {
     this.answerService.storeAnswer(answer, this.question_index);
+    this.button_clicked.emit('');
   }
 
   ngOnInit() {

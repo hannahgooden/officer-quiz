@@ -19,7 +19,7 @@ export class AnswerService {
 
   // todo: look up how to tell if an object is empty
   public isEmpty(object: Object) : Boolean {
-    if (object === undefined || object === {}) {
+    if ( Object.entries(object).length === 0 && object.constructor === Object ) {
       return true;
     } else return false;
   }

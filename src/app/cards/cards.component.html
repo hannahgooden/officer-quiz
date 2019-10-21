@@ -13,6 +13,8 @@
         <button mat-button (click)="nextQuestion()"><i class="fa fa-angle-right"></i></button>
         <button mat-button (click)="lastQuestion()"><i class="fa fa-angle-double-right"></i></button>
     </div>
-    <app-card [question_index]="question_index"></app-card>
-    <button class="submit-button" *ngIf="this.answerService.checkAnswers()" mat-flat-button color="primary">Submit</button>
+    <app-card [question_index]="question_index" (button_clicked)="nextQuestion()"></app-card>
+    <a routerLink='/results'>
+        <button class="submit-button" *ngIf="this.answerService.checkAnswers()" mat-flat-button color="primary">Submit</button>
+    </a>
 </div>
