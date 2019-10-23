@@ -1,6 +1,6 @@
 [
     {
-        "question": "What do you most like to do for fun?",
+        "question": "What do you like to do in your free time?",
         "answers": [
             {
                 "id" : 0,
@@ -59,7 +59,7 @@
         "answers": [
             {
                 "id" : 0,
-                "text": "hey",
+                "text": "Backend web development",
                 "officers": ["Thomas"]
             },
             {
@@ -69,7 +69,7 @@
             },
             {
                 "id" : 2,
-                "text": "howdy",
+                "text": "Game development",
                 "officers": ["Feras"]
             },
             {
@@ -114,7 +114,7 @@
         "answers": [
             {
                 "id" : 0,
-                "text": "hey",
+                "text": "Python",
                 "officers": ["Thomas"]
             },
             {
@@ -124,7 +124,7 @@
             },
             {
                 "id" : 2,
-                "text": "howdy",
+                "text": "LaTeX",
                 "officers": ["Feras"]
             },
             {
@@ -170,7 +170,7 @@
             {
                 "id" : 0,
                 "text": "Houston area",
-                "officers": ["Thomas", "Feras"]
+                "officers": ["Thomas"]
             },
             {
                 "id" : 1,
@@ -180,7 +180,7 @@
             {
                 "id" : 3,
                 "text": "A foreign country",
-                "officers": ["Edgar", "Shrey"]
+                "officers": ["Edgar", "Shrey", "Feras"]
             },
             {
                 "id" : 4,
@@ -219,7 +219,7 @@
             },
             {
                 "id" : 2,
-                "text": "Something with a reference no one else gets",
+                "text": "Something with an obscure reference",
                 "officers": ["Feras"]
             },
             {
@@ -234,7 +234,7 @@
             },
             {
                 "id" : 5,
-                "text": "can't think of anything for shrey",
+                "text": "Patterned pants",
                 "officers": ["Shrey"]
             },
             {
@@ -289,7 +289,7 @@
             },
             {
                 "id" : 2,
-                "text": "idk",
+                "text": "Mediterranean",
                 "officers": ["Feras"]
             },
             {
@@ -330,22 +330,22 @@
         ]
     }, 
     {
-        "question": "Which tool do you like the most?",
+        "question": "How do you feel about Kubernetes?",
         "answers": [
             {
                 "id" : 0,
-                "text": "Kubernetes",
+                "text": "YES",
                 "officers": ["Thomas"]
             },
             {
                 "id" : 1,
-                "text": "idk",
-                "officers": ["Alsten"]
+                "text": "I'm not a fiend but I'm a fan",
+                "officers": ["Feras"]
             },
             {
                 "id" : 2,
-                "text": "howdy",
-                "officers": ["Feras"]
+                "text": "",
+                "officers": ["Alsten"]
             },
             {
                 "id" : 3,
@@ -389,7 +389,7 @@
         "answers": [
             {
                 "id" : 0,
-                "text": "hey",
+                "text": "I know the leadership",
                 "officers": ["Thomas"]
             },
             {
@@ -399,7 +399,7 @@
             },
             {
                 "id" : 2,
-                "text": "howdy",
+                "text": "A friend invited me",
                 "officers": ["Feras"]
             },
             {

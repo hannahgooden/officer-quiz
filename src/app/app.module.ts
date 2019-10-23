@@ -33,7 +33,7 @@ const appRoutes: Routes = [
     ResultsComponent
   ],
   imports: [
-    RouterModule.forRoot(appRoutes, {enableTracing: true}),
+    RouterModule.forRoot(appRoutes),
     AngularFontAwesomeModule,
     BrowserModule,
     AppRoutingModule,

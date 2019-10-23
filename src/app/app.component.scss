@@ -1,0 +1,20 @@
+.fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.mat-flat-button {
+    background-color: transparent;
+}
+
+.mat-flat-button:hover {
+    background-color: white;
+    transition-duration: 300ms;
+}
+
+.resume {
+    color: white;
+}
+
+.resume:hover {
+    color: #3f51b5;
+}
