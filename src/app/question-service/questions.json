@@ -89,7 +89,7 @@
             },
             {
                 "id" : 6,
-                "text": "hola",
+                "text": "I don't know",
                 "officers": ["Mitchell"]
             },
             {
@@ -115,7 +115,7 @@
             {
                 "id" : 0,
                 "text": "Python",
-                "officers": ["Thomas"]
+                "officers": ["Thomas", "Mitchell"]
             },
             {
                 "id" : 1,
@@ -141,11 +141,6 @@
                 "id" : 5,
                 "text": "aloha",
                 "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
             },
             {
                 "id" : 7,
@@ -364,7 +359,7 @@
             },
             {
                 "id" : 6,
-                "text": "hola",
+                "text": "What is Kubernetes?",
                 "officers": ["Mitchell"]
             },
             {
@@ -400,7 +395,7 @@
             {
                 "id" : 2,
                 "text": "A friend invited me",
-                "officers": ["Feras"]
+                "officers": ["Feras", "Mitchell"]
             },
             {
                 "id" : 3,
@@ -416,11 +411,6 @@
                 "id" : 5,
                 "text": "aloha",
                 "officers": ["Shrey"]
-            },
-            {
-                "id" : 6,
-                "text": "hola",
-                "officers": ["Mitchell"]
             },
             {
                 "id" : 7,

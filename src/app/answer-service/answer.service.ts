@@ -13,6 +13,23 @@ export class AnswerService {
     return array;
   };
 
+  public getAllPossibleAnswers() : Array<string> {
+    let questions : any = this.questionService.getAllQuestions();
+    let array = [];
+    questions.forEach(function(question) {
+      let answers = question.answers;
+      answers.forEach(function(answer) {
+        let officers = answer.officers;
+        officers.forEach(function(officer) {
+          if(array.indexOf(officer) === -1) {
+            array.push(officer);
+          }
+        })
+      })
+    });
+    return array;
+  }
+
   public getAllChosenAnswers() : Array<Object> {
     return this.answers;
   }
@@ -30,6 +47,10 @@ export class AnswerService {
 
   public storeAnswer(answer : Object, index : number) {
     this.answers[index] = answer;
+  }
+  
+  public resetAnswers() {
+    this.answers = this.initializeAnswers(this.questionService.getAllQuestions());
   }
 
   constructor(private questionService: QuestionService) {

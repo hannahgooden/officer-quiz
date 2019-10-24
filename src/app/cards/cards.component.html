@@ -15,6 +15,6 @@
     </div>
     <app-card [question_index]="question_index" (button_clicked)="nextQuestion()"></app-card>
     <a routerLink='/results'>
-        <button class="submit-button" *ngIf="this.answerService.checkAnswers()" mat-flat-button color="primary">Submit</button>
+        <button class="submit-button" *ngIf="this.answerService.checkAnswers()" mat-stroked-button>Submit</button>
     </a>
 </div>

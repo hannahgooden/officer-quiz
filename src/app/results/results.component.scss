@@ -12,3 +12,13 @@
     float: left;
     width: 45%;
 }
+
+// workaround because jquery and ngIf don't work well together
+.invisible {
+    display: none;
+}
+
+.central {
+    text-align: center;
+    padding: 30px;
+}

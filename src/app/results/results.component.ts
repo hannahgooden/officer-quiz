@@ -10,51 +10,63 @@ import * as Highcharts from 'highcharts';
 export class ResultsComponent implements OnInit {
   answers: Array<Object>;
   chart: Highcharts.Chart;
-  officers: Array<string> = ['Hannah','Gabriel','Marissa','Thomas','Edgar','Feras','Mitchell','Alsten','Yonathan','Shrey'];
-
+  officers: Array<string> = this.answerService.getAllPossibleAnswers();
+  allAnswered: Boolean;
+  
   constructor(private answerService: AnswerService) { 
     this.answers = this.answerService.getAllChosenAnswers();
+    this.allAnswered = this.answerService.checkAnswers();
   }
-
-  public getChartDataFromAnswers() : Array<number> {
+  
+  public getChartDataFromAnswers() : Object {
     // officers and their order are hard coded in. parameterize this in the future 
-    let chartData = [0,0,0,0,0,0,0,0,0,0];
+    let chartData = {};
+    this.officers.forEach(function(officer) {
+      chartData[officer] = 0;
+    });
+    const numQuestions = this.answers.length;
+
     this.answers.forEach(function(answer: any){
       let officers = answer.officers;
       officers.forEach(function(officer) {
 
         if(officer == 'Hannah') {
-          chartData[0]++;
+          chartData['Hannah']+= 1/officers.length;
         }
         if(officer == 'Gabriel') {
-          chartData[1]++;
+          chartData['Gabriel']+= 1/officers.length;
         }
         if(officer == 'Marissa') {
-          chartData[2]++;
+          chartData['Marissa']+= 1/officers.length;
         }
         if(officer == 'Thomas') {
-          chartData[3]++;
+          chartData['Thomas']+= 1/officers.length;
         }
         if(officer == 'Edgar') {
-          chartData[4]++;
+          chartData['Edgar']+= 1/officers.length;
         }
         if(officer == 'Feras') {
-          chartData[5]++;
+          chartData['Feras']+= 1/officers.length;
         }
         if(officer == 'Mitchell') {
-          chartData[6]++;
+          chartData['Mitchell']+= 1/officers.length;
         }
         if(officer == 'Alsten') {
-          chartData[7]++;
+          chartData['Alsten']+= 1/officers.length;
         }
         if(officer == 'Yonathan') {
-          chartData[8]++;
+          chartData['Yonathan']+= 1/officers.length;
         }
         if(officer == 'Shrey') {
-          chartData[9]++;
+          chartData['Shrey']+= 1/officers.length;
         }
       });
     });
+    
+    Object.keys(chartData).forEach(function(officer) {
+      chartData[officer] = chartData[officer] / numQuestions * 100;
+      chartData[officer] = parseFloat(chartData[officer].toFixed(2));
+    })
 
     return chartData;
   }
@@ -69,28 +81,34 @@ export class ResultsComponent implements OnInit {
         text: 'Your Scores'
       },
       xAxis: {
-        categories: this.officers
+        categories: Object.keys(this.getChartDataFromAnswers())
       },
       yAxis: {
         title: {
           text: 'Score'
         },
-        max: 10
+        max: 100
       },
       series: [{
         name: 'Score',
         type: 'bar',
-        data: this.getChartDataFromAnswers()
+        data: Object.values(this.getChartDataFromAnswers())
       }],
       legend: {
         enabled: false
+      },
+      tooltip: {
+        valueSuffix: "%"
       }
     });
   }
 
   ngOnInit() {
     // todo: protect the route by adding a check that results exist before rendering them
-    this.createChart();
+    this.allAnswered = this.answerService.checkAnswers();
+    if(this.allAnswered) {
+      this.createChart();
+    }
   }
 
 }

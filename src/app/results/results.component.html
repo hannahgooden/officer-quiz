@@ -1,6 +1,10 @@
-<div class="container">
+<div class="container {{allAnswered ? '': 'invisible'}}">
     <div class="results">
         Howdy
     </div>
     <div id="chart" class="chart"></div>
+</div>
+
+<div routerLink="/" class="central">
+    <button mat-stroked-button (click)="answerService.resetAnswers()">Take Quiz {{allAnswered ? "Again" : ""}}</button>
 </div>
