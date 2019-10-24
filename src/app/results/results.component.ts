@@ -19,50 +19,23 @@ export class ResultsComponent implements OnInit {
   }
   
   public getChartDataFromAnswers() : Object {
-    // officers and their order are hard coded in. parameterize this in the future 
+    // calculate scores
+    // first initialize an object of officers with initial score of 0
     let chartData = {};
     this.officers.forEach(function(officer) {
       chartData[officer] = 0;
     });
     const numQuestions = this.answers.length;
 
+    // increment scores, weighting if more than one officer has same answer
     this.answers.forEach(function(answer: any){
       let officers = answer.officers;
       officers.forEach(function(officer) {
-
-        if(officer == 'Hannah') {
-          chartData['Hannah']+= 1/officers.length;
-        }
-        if(officer == 'Gabriel') {
-          chartData['Gabriel']+= 1/officers.length;
-        }
-        if(officer == 'Marissa') {
-          chartData['Marissa']+= 1/officers.length;
-        }
-        if(officer == 'Thomas') {
-          chartData['Thomas']+= 1/officers.length;
-        }
-        if(officer == 'Edgar') {
-          chartData['Edgar']+= 1/officers.length;
-        }
-        if(officer == 'Feras') {
-          chartData['Feras']+= 1/officers.length;
-        }
-        if(officer == 'Mitchell') {
-          chartData['Mitchell']+= 1/officers.length;
-        }
-        if(officer == 'Alsten') {
-          chartData['Alsten']+= 1/officers.length;
-        }
-        if(officer == 'Yonathan') {
-          chartData['Yonathan']+= 1/officers.length;
-        }
-        if(officer == 'Shrey') {
-          chartData['Shrey']+= 1/officers.length;
-        }
+        chartData[officer] += 1/officers.length;
       });
     });
     
+    // convert to percentages
     Object.keys(chartData).forEach(function(officer) {
       chartData[officer] = chartData[officer] / numQuestions * 100;
       chartData[officer] = parseFloat(chartData[officer].toFixed(2));
@@ -104,7 +77,6 @@ export class ResultsComponent implements OnInit {
   }
 
   ngOnInit() {
-    // todo: protect the route by adding a check that results exist before rendering them
     this.allAnswered = this.answerService.checkAnswers();
     if(this.allAnswered) {
       this.createChart();
