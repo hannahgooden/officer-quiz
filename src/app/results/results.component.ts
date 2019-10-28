@@ -31,7 +31,9 @@ export class ResultsComponent implements OnInit {
     this.answers.forEach(function(answer: any){
       let officers = answer.officers;
       officers.forEach(function(officer) {
-        chartData[officer] += 1/officers.length;
+        if (officers.length != 0) {
+          chartData[officer] += 1/officers.length;
+        }
       });
     });
     
