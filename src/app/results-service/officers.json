@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Hannah",
+        "pictureURL": "assets/officers/hannah.jpg",
+        "description": "You are most like our fearless president. You are comfortable in a leadership role, but make sure everyone feels heard. You like all sorts of coding, but most enjoy user interfaces and human-computer interaction. Also, you are always cold."
+    },
+    {
+        "id": 1,
+        "name": "Gabriel",
+        "pictureURL": "",
+        "description": "You have most in common with our hard-working vice president. You are passionate about coding and love to find ways to use technology to help other people. You are well versed in all areas of computer science, but most enjoy working on frontends. Also, you like to pick up interesting hobbies like scuba diving."
+    },
+    {
+        "id": 2,
+        "name": "Marissa",
+        "pictureURL": "",
+        "description": "You are like our events chair! You are fun-loving and good natured. Friends know that they can count on you and that you are always dependable. You prefer coding hardware over coding software. You also watch a lot of Netflix, and know how to plan a really good party."
+    },
+    {
+        "id": 3,
+        "name": "Feras",
+        "pictureURL": "",
+        "description": "You share a personality with our project management chair. You love to mentor other students. If you aren't a TA or peer mentor yet, you probably will be. You also love gaming culture and watch a lot of Twitch. You are most interested in graphics and like to make your own games."
+    },
+    {
+        "id": 4,
+        "name": "Mitchell",
+        "pictureURL": "",
+        "description": "You are most like our project management chair. You have a bright and bubbly personality, and love to meet new people. People often tell you you talk too much. You also love to be outdoors. You are passionate about coding, but it isn't your ultimate source of happiness."
+    },
+    {
+        "id": 5,
+        "name": "Thomas",
+        "pictureURL": "",
+        "description": "You are just like our workshops chair. You are an exceptional communicator who your friends often look to when they are having trouble with their code. You have many hobbies, including being outdoors, cooking, and wine tasting. You also think the Kubernetes is the greatest piece of software ever invented."
+    },
+    {
+        "id": 6,
+        "name": "Edgar",
+        "pictureURL": "",
+        "description": "You and our workshops chair are a lot alike. You enjoy learning new things and teaching others. You spend a lot of time reading, watching Youtube, and gaming online. You enjoy coding, but have many other interests as well. Also, you could eat tacos for breakfast, lunch, and dinner."
+    },
+    {
+        "id": 7,
+        "name": "Shrey",
+        "pictureURL": "",
+        "description": "You are most like our workshops chair. You always have a smile on your face, and friends often come to you for advice. You love to pursue your interests, and are always working on many different projects. You are also a high achiever in school. Because of this and your unique pursuit of hobbies such as magic, you don't get much sleep, but it's totally worth it."
+    },
+    {
+        "id": 8,
+        "name": "Yonathan",
+        "pictureURL": "",
+        "description": "You share a personality with our workshops chair. You may seem quiet on the outside, but when people get to know you, . "
+    },
+    {
+        "id": 9,
+        "name": "Alsten",
+        "pictureURL": "",
+        "description": "You have the most in common with our public relations chair. You love community and are driven by a passion to give back to communities which have impacted you. You are great with people, and like to find ways to become a leader. You are also secretly (or not so secretly) a nerd, and love to code, build with LEGOs, and play D&D."
+    }
+]

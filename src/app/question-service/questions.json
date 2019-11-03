@@ -49,7 +49,7 @@
             },
             {
                 "id" : 9,
-                "text": "Yonathan answer",
+                "text": "",
                 "officers": ["Yonathan"]
             }
         ]
@@ -174,7 +174,7 @@
             },
             {
                 "id" : 9,
-                "text": "another state",
+                "text": "Another state",
                 "officers": []
             }
         ]
@@ -370,12 +370,7 @@
             {
                 "id": 5,
                 "text": "To meet fellow troublemakers",
-                "officers": ["Shrey"]
-            },
-            {
-                "id" : 8,
-                "text": "buenos dias",
-                "officers": ["Marissa"]
+                "officers": ["Shrey", "Marissa"]
             },
             {
                 "id" : 9,
