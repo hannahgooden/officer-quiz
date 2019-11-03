@@ -1,8 +1,9 @@
 <div class="container {{allAnswered ? '': 'invisible'}}">
     <div class="results">
-            <img src="assets/officers/thomas.jpg"/>
+            <img src="{{result.pictureURL}}"/>
             <div class="text">
-                <h3>You are: {{result}}!</h3>
+                <h3>You are {{result.name}}!</h3>
+                <div>{{result.description}}</div>
             </div>
     </div>
     <div id="chart" class="chart"></div>

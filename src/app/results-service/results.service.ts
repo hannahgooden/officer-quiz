@@ -9,13 +9,15 @@ export class ResultsService {
 
   constructor() { }
 
-  public getResultFromChartData(chartData) : string {
-    return Object.keys(chartData).reduce((a, b) => chartData[a] > chartData[b] ? a : b);
-  }
-
-  public getOfficerDataFromResult(result) : Object {
-
-    return {}
+  public getResultFromChartData(chartData) : Object {
+    let result = Object.keys(chartData).reduce((a, b) => chartData[a] > chartData[b] ? a : b);
+    let returnedOfficer = {};
+    officers.forEach( officer => {
+      if(officer.name == result) {
+        returnedOfficer = officer;
+      }
+    });
+    return returnedOfficer;
   }
 
   public getChartDataFromAnswers(officers, answers) : Object {
