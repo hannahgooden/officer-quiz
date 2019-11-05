@@ -14,15 +14,15 @@ export class ResultsComponent implements OnInit {
   officers: Array<string> = this.answerService.getAllPossibleAnswers();
   allAnswered: Boolean;
   chartData: Object;
-  result: Object = {
+  result: any = {
     id: "",
     name: "",
     pictureURL: "",
     description: ""
   };
   
-  constructor(private answerService: AnswerService,
-              private resultsService: ResultsService) 
+  constructor(public answerService: AnswerService,
+              public resultsService: ResultsService) 
   { 
     this.answers = this.answerService.getAllChosenAnswers();
     this.allAnswered = this.answerService.checkAnswers();
@@ -33,7 +33,6 @@ export class ResultsComponent implements OnInit {
     if(this.allAnswered) {
       this.chartData = this.resultsService.getChartDataFromAnswers(this.officers, this.answers);
       this.result = this.resultsService.getResultFromChartData(this.chartData);
-      console.log(this.result);
       this.resultsService.createChart(this.chartData);
     }
   }

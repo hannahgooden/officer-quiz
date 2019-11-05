@@ -14,8 +14,8 @@ export class CardsComponent implements OnInit {
   question_index = 0;
   chosen_answer: Object = {};
   
-  constructor(private questionService: QuestionService,
-              private answerService: AnswerService) { 
+  constructor(public questionService: QuestionService,
+              public answerService: AnswerService) { 
     this.questions = this.questionService.getAllQuestions();
   }
 

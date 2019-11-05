@@ -10,7 +10,7 @@ import { AnswerService } from '../answer-service/answer.service';
 export class CardComponent implements OnInit {
   @Input() question_index : number;
   @Output() button_clicked = new EventEmitter();
-  questions: Array<Object> = [];
+  questions: Array<any> = [];
   question: Object = {};
   chosen_answer : Object;
   

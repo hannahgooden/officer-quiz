@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Hannah",
         "pictureURL": "assets/officers/hannah.jpg",
-        "description": "You are most like our fearless president. You are comfortable in a leadership role, but make sure everyone feels heard. You like all sorts of coding, but most enjoy user interfaces and human-computer interaction. Also, you are always cold."
+        "description": "You are most like our fearless president. You are comfortable in a leadership role, but make sure everyone feels heard. You like all sorts of coding, but most enjoy user interfaces and human-computer interaction. You are naturally curious about the world, and love to study science. Also, you are always cold."
     },
     {
         "id": 1,
@@ -51,7 +51,7 @@
         "id": 8,
         "name": "Yonathan",
         "pictureURL": "assets/officers/yonathan.png",
-        "description": "You share a personality with our workshops chair. You may seem quiet on the outside, but when people get to know you, . "
+        "description": "You share a personality with our workshops chair. You may seem quiet on the outside, but when people get to know you, you're very funny. You are a very gifted programmer, and most enjoy mobile development. You have probably already built an app or two of your own, and your friends can find it on the App Store."
     },
     {
         "id": 9,

@@ -319,21 +319,16 @@
             },
             {
                 "id" : 3,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 4,
                 "text": "What's kUBerNetEs?",
                 "officers": ["Mitchell", "Yonathan"]
             },
             {
-                "id" : 5,
+                "id" : 4,
                 "text": "I've never used it before",
                 "officers": ["Hannah", "Alsten"]
             },
             {
-                "id" : 6,
+                "id" : 5,
                 "text": "Useful, but out of scope for my projects",
                 "officers": ["Gabriel"]
             }
