@@ -49,7 +49,7 @@
             },
             {
                 "id" : 9,
-                "text": "",
+                "text": "Sleep",
                 "officers": ["Yonathan"]
             }
         ]
@@ -63,42 +63,42 @@
                 "officers": ["Thomas", "Edgar"]
             },
             {
-                "id" : 2,
+                "id" : 1,
                 "text": "Game development",
                 "officers": ["Feras"]
             },
             {
-                "id" : 4,
-                "text": "how do you do",
+                "id" : 2,
+                "text": "Mobile development",
                 "officers": ["Yonathan"]
             },
             {
-                "id" : 5,
+                "id" : 3,
                 "text": "Algorithm development",
                 "officers": ["Shrey"]
             },
             {
-                "id" : 6,
+                "id" : 4,
                 "text": "I don't know",
                 "officers": ["Mitchell"]
             },
             {
-                "id" : 7,
+                "id" : 5,
                 "text": "Frontend web development",
                 "officers": ["Hannah", "Alsten"]
             },
             {
-                "id" : 8,
+                "id" : 6,
                 "text": "Hardware/embedded systems",
                 "officers": ["Marissa"]
             },
             {
-                "id" : 9,
+                "id" : 7,
                 "text": "Fullstack web development",
                 "officers": ["Gabriel"]
             },
             {
-                "id" : 10,
+                "id" : 8,
                 "text": "I don't code",
                 "officers": []
             }
@@ -113,32 +113,32 @@
                 "officers": ["Thomas", "Mitchell", "Gabriel", "Alsten", "Shrey"]
             },
             {
-                "id" : 2,
+                "id" : 1,
                 "text": "LaTeX",
                 "officers": ["Feras"]
             },
             {
-                "id" : 3,
+                "id" : 2,
                 "text": "C++",
                 "officers": ["Edgar"]
             },
             {
-                "id" : 4,
-                "text": "how do you do",
+                "id" : 3,
+                "text": "Dart",
                 "officers": ["Yonathan"]
             },
             {
-                "id" : 7,
+                "id" : 4,
                 "text": "TypeScript",
                 "officers": ["Hannah"]
             },
             {
-                "id" : 8,
+                "id" : 5,
                 "text": "C",
                 "officers": ["Marissa"]
             },
             {
-                "id" : 9,
+                "id" : 6,
                 "text": "I still don't code",
                 "officers" : []
             }
@@ -158,22 +158,17 @@
                 "officers": ["Alsten"]
             },
             {
-                "id" : 3,
+                "id" : 2,
                 "text": "A foreign country",
-                "officers": ["Edgar", "Shrey", "Feras"]
+                "officers": ["Edgar", "Shrey", "Feras", "Yonathan"]
             },
             {
-                "id" : 4,
-                "text": "how do you do",
-                "officers": ["Yonathan"]
-            },
-            {
-                "id" : 6,
+                "id" : 3,
                 "text": "DFW area",
                 "officers": ["Mitchell", "Hannah", "Gabriel", "Marissa"]
             },
             {
-                "id" : 9,
+                "id" : 4,
                 "text": "Another state",
                 "officers": []
             }
@@ -274,7 +269,7 @@
             },
             {
                 "id" : 4,
-                "text": "idk",
+                "text": "Indian",
                 "officers": ["Yonathan"]
             },
             {
@@ -318,27 +313,27 @@
                 "officers": ["Feras", "Shrey"]
             },
             {
-                "id" : 3,
+                "id" : 2,
                 "text": "I'm ambivalent",
                 "officers": ["Edgar", "Marissa"]
             },
             {
-                "id" : 4,
+                "id" : 3,
                 "text": "how do you do",
                 "officers": ["Yonathan"]
             },
             {
-                "id" : 6,
-                "text": "What is Kubernetes?",
-                "officers": ["Mitchell"]
+                "id" : 4,
+                "text": "What's kUBerNetEs?",
+                "officers": ["Mitchell", "Yonathan"]
             },
             {
-                "id" : 7,
+                "id" : 5,
                 "text": "I've never used it before",
                 "officers": ["Hannah", "Alsten"]
             },
             {
-                "id" : 9,
+                "id" : 6,
                 "text": "Useful, but out of scope for my projects",
                 "officers": ["Gabriel"]
             }
@@ -353,27 +348,27 @@
                 "officers": ["Thomas"]
             },
             {
-                "id" : 2,
+                "id" : 1,
                 "text": "A friend invited me",
                 "officers": ["Feras", "Mitchell"]
             },
             {
-                "id" : 3,
+                "id" : 2,
                 "text": "I wanted to get coding experience",
                 "officers": ["Edgar", "Hannah"]
             },
             {
-                "id" : 4,
-                "text": "how do you do",
+                "id" : 3,
+                "text": "I really like the people",
                 "officers": ["Yonathan"]
             },
             {
-                "id": 5,
+                "id": 4, 
                 "text": "To meet fellow troublemakers",
                 "officers": ["Shrey", "Marissa"]
             },
             {
-                "id" : 9,
+                "id" : 5,
                 "text": "ACC teaches me things I will never learn in lecture",
                 "officers": ["Gabriel", "Alsten"]
             }
