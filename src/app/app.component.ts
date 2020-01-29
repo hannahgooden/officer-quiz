@@ -12,5 +12,9 @@ export class AppComponent {
   public getResume() {
     window.open('../assets/resume.pdf');
   }
+  
+  public goToGithub() {
+    window.open("https://github.com/hannahgooden/officer-quiz")
+  }
 
 }
